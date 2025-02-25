@@ -1,0 +1,13 @@
+<mvc:View controllerName="sidenavigation.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:tnt="sap.tnt"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <tnt:SideNavigation >
+        <tnt:NavigationList >
+            <tnt:NavigationListItem text="Details" icon="sap-icon://form" press="details"/>
+            <tnt:NavigationListItem text="Expenditure Predicted Info" icon="sap-icon://expense-report" press="prediction"/>
+        </tnt:NavigationList>
+    </tnt:SideNavigation>
+    </Page>
+</mvc:View>
